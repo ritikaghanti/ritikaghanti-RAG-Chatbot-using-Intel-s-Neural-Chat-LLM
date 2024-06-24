@@ -18,7 +18,7 @@ config = {
 'max_new_tokens': 1024,
 'repetition_penalty': 1.1,
 'temperature': 0.2,
-'top_k': 50,
+'top_k': 5000,
 'top_p': 0.9,
 'stream': True,
 'threads': int(os.cpu_count() /2)
